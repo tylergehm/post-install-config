@@ -3,8 +3,9 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
+This Azure project focuses on configuring the osTicket helpdesk to simulate enterprise support operations. Using the Admin Panel, it sets up roles to group permissions, departments to manage ticket visibility, and teams to coordinate agents across departments. It enforces user registration for ticket submission, adds agents and users, defines SLA plans to enforce response times, and creates help topics to route incoming tickets—establishing a structured, role-based, and policy-driven support workflow within the previously deployed osTicket environment.
 
+This project builds off of the helpdesk that was created in a previous project: [osTicket: Building a Helpdesk with IIS, PHP, and MySQL](https://github.com/tylergehm/osticket-prereqs)
 
 <h2>Video Demonstration</h2>
 
@@ -18,38 +19,18 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Operating Systems Used </h2>
 
-- Windows 10</b> (21H2)
+- Windows 11 Pro (21H2)
+- Windows 11 Home (host machine)
 
-<h2>Post-Install Configuration Objectives</h2>
+<h2>Post-Install Configuration Steps</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Step 1 - Configure Roles
+- Step 2 - Configure Departments
+- Step 3 - Configure Teams
+- Step 4 - Allow Ticket Creation
+- Step 5 - Configure Agents (Employees)
+- Step 6 - Configure Users (Customers)
+- Step 7 - Configure Service Level Agreements (SLAs)
+- Step 8 - Configure Help Topics
 
-<h2>Configuration Steps</h2>
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
+<h2> Step 1 - Configure Roles</h2>
