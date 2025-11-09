@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+  <img src="https://raw.githubusercontent.com/tylergehm/post-install-config/main/osticketlogo.jpg" alt="GitHub banner" style="max-width:100%;height:auto;" />
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
@@ -40,3 +40,42 @@ This project is created from the osTicket build completed in another project: [o
 - Step 8 - Configure Help Topics
 
 <h2> Step 1 - Configure Roles</h2>
+
+<img width="1864" height="910" alt="image" src="https://github.com/user-attachments/assets/970dc40a-a015-499a-9cd9-bceaeef87ef6" /> </p>
+
+The first step of this configuration begins by logging into the web portal with the admin account that was set up during osTicket installation </p>
+
+<img width="1182" height="431" alt="image" src="https://github.com/user-attachments/assets/9f12f4f1-d5d9-4275-bc20-3585a5df03c9" />
+
+Once logged into the Admin panel; click on the tab "Agents" then click on the tab "Roles". Once inside the Roles page, click the button that says "Add New Role". </p>
+
+Roles are permission sets in osTicket that define what agents can do (e.g., view, edit, delete tickets or manage settings) without granting full admin access. </p>
+
+<img width="1174" height="498" alt="image" src="https://github.com/user-attachments/assets/ae1349fe-f643-4ebe-bf26-940a01c65b67" /> </p>
+
+Here, a new role is created with the name "Supreme Admin". Next, click the button labeled "Permissions". </p>
+
+<img width="1037" height="681" alt="image" src="https://github.com/user-attachments/assets/f76aa8e8-7530-4bfd-b20e-dc034b634875" /> </p>
+
+Inside the permissions tab, click the check-box next to all permissions to enable everything. This gives the Supreme Admin role access to all permissions. </p>
+
+Permissions are specific actions (view, create, edit, delete, close tickets, manage users, etc.) that a role allows or denies—controlling exactly what an agent can do in osTicket. </p>
+
+<img width="1150" height="510" alt="image" src="https://github.com/user-attachments/assets/4b47c900-8dcb-44b8-9be5-5203ddb1c8b8" /> </p>
+
+The Supreme Admin role has been successfully added to the Roles manager. </p>
+
+<h2>Step 2 - Configure Departments</h2>
+
+<img width="1177" height="358" alt="image" src="https://github.com/user-attachments/assets/232815c9-5118-4e6e-8ad3-8eb5e1fceeab" /> </p>
+
+To begin this step, click on the "Departments" button inside the Agents tab. </p>
+
+Departments in osTicket are logical groups (like IT, HR, Billing) that organize agents and route tickets to the right team for faster, targeted support. It allows for ticket visibility, so Agents will see tickets that are relevant to their department.</p>
+
+Click on the button labeled "Add New Department". </p>
+
+
+
+
+
