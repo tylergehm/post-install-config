@@ -3,9 +3,9 @@
 </p>
 
 <h1>osTicket - Post-Install Configuration</h1>
-This Azure project focuses on configuring the osTicket helpdesk to simulate enterprise support operations. Using the Admin Panel, it sets up roles to group permissions, departments to manage ticket visibility, and teams to coordinate agents across departments. It enforces user registration for ticket submission, adds agents and users, defines SLA plans to enforce response times, and creates help topics to route incoming tickets—establishing a structured, role-based, and policy-driven support workflow within the previously deployed osTicket environment.
+This Azure project focuses on configuring the osTicket helpdesk to simulate enterprise support operations. Using the Admin Panel, it sets up roles to group permissions, departments to manage ticket visibility, and teams to coordinate agents across departments. It enforces user registration for ticket submission, adds agents and users, defines SLA plans to enforce response times, and creates help topics to route incoming tickets—establishing a structured, role-based, and policy-driven support workflow within the previously deployed osTicket environment. </p>
 
-This project builds off of the helpdesk that was created in a previous project: [osTicket: Building a Helpdesk with IIS, PHP, and MySQL](https://github.com/tylergehm/osticket-prereqs)
+This project builds off of the helpdesk that was created in a previous project: [osTicket - Building osTicket Support Ticketing System from scratch](https://github.com/tylergehm/osticket-prereqs)
 
 <h2>Video Demonstration</h2>
 
