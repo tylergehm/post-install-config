@@ -15,7 +15,7 @@ This project is created from the osTicket build completed in another project: [o
 
 <h2>Video Demonstration</h2>
 
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+- ### [YouTube: osTicket - Post-Install Configuration](https://youtu.be/8NoZWaUDMAM)
 
 <h2>Environments and Technologies Used</h2>
 
