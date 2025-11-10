@@ -75,6 +75,81 @@ Departments in osTicket are logical groups (like IT, HR, Billing) that organize 
 
 Click on the button labeled "Add New Department". </p>
 
+<img width="792" height="923" alt="image" src="https://github.com/user-attachments/assets/61c0777e-fd39-470a-9546-2e5cb3aae28e" />
+
+In the "Add New Department" page, the forms are filled out for a Top-Level Department with the name "Sys Admins" to be created. Once the forms are completed, click on the "Create Dept" button. </p>
+
+<img width="1184" height="443" alt="image" src="https://github.com/user-attachments/assets/fa53aa9b-9876-4ff9-9c86-94473886dcdb" /> </p>
+
+The "Sys Admins" department was successfully added to Departments. </p>
+
+<h2Step 3 - Configure Teams</h2>
+
+<img width="1182" height="326" alt="image" src="https://github.com/user-attachments/assets/aa794754-2802-4bc5-a6d1-93443dd4ceed" /> </p>
+
+Under the Agents tab, click on the button labeled "Teams". Then, click on the button labeled "Add New Team" </p>
+
+Teams in osTicket are flexible groups of agents (from any department) created for specific projects or situations. </p>
+
+<img width="1035" height="804" alt="image" src="https://github.com/user-attachments/assets/1ffde357-e184-48b3-8397-24ef714084bb" /> </p>
+
+Inside the Add New Team page, a team named "Online Banking" is entered into the text box. Afterwards, click the button labeled "Create Team" </p>
+
+<img width="1179" height="350" alt="image" src="https://github.com/user-attachments/assets/fb6efcbe-d08c-4cef-a382-ab2a9180fad3" /> </p>
+
+Online Banking has been successfully added to teams. </p>
+
+
+<h2>Step 4 - Allow Ticket Creation</h2>
+
+This next setting allows users to create tickets their own tickets even if they are not registered in the system yet. This allows for ticket creation without requiring an account. </p>
+
+<img width="1179" height="812" alt="image" src="https://github.com/user-attachments/assets/d133f062-be40-4f99-ac68-63cf23aff7f7" /> </p>
+
+Click on the "Settings" tab then click on the button labeled "Users". </p>
+
+Inside the Users Settings, uncheck the box next to "Require registration and login to create tickets". </p>
+
+Then click the button labeled "Save Changes".
+
+<h2>Step 5 - Configure Agents (Employees)</h2>
+
+<img width="1184" height="374" alt="image" src="https://github.com/user-attachments/assets/1b78745e-4cbc-499b-aff3-cb4458f0743d" /> </p>
+
+To begin creating Agents, click on the "Agents" tab and then click on the button labeled "Add New Agent". </p>
+
+Agents are staff members (support reps) who log into the osTicket admin panel to view, respond to, assign, and resolve tickets. </p>
+
+<img width="1189" height="762" alt="image" src="https://github.com/user-attachments/assets/40749ab0-29e5-4f1f-b131-522cd479e59b" /> </p>
+
+Inside the Add New Agents page; fill out the information for the new Agent including name, e-mail, and user name. Then click the tab labeled "Access". </p>
+
+<img width="1180" height="638" alt="image" src="https://github.com/user-attachments/assets/af511f12-c06a-467b-85c4-2ed649241451" /> </p>
+
+Set the Department and Role for the Agent being created, then click on the tab labeled "Teams". </p>
+
+<img width="1193" height="512" alt="image" src="https://github.com/user-attachments/assets/cc608dc8-b56e-40c0-b187-564f165abcb6" /> </p>
+
+Set the team the Agent will be assigned to, then click the button labeled "Create". </p>
+
+<img width="1196" height="441" alt="image" src="https://github.com/user-attachments/assets/4d4c8174-de78-4833-bf18-68bcb27c4beb" /> </p>
+
+Agent was successfully created. </p>
+
+
+<h2>Step 6 - Configure Users (Customers)</h2>
+
+<img width="1190" height="408" alt="image" src="https://github.com/user-attachments/assets/561f2d1d-1af3-4809-96ed-8643334c1262" />
+
+To begin adding Users, open up the Agent panel of osTicket. </p>
+
+Inside the Agent panel, click on the tab "Users then click on the button labeled "Add New User". </p>
+
+
+
+
+
+
 
 
 
