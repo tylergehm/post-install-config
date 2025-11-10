@@ -145,6 +145,73 @@ To begin adding Users, open up the Agent panel of osTicket. </p>
 
 Inside the Agent panel, click on the tab "Users then click on the button labeled "Add New User". </p>
 
+<img width="795" height="485" alt="image" src="https://github.com/user-attachments/assets/410e636f-e751-4e0b-ab6b-b81d3ff32d47" /> </p>
+
+Inside the Look up or create a user page; fill out the forms with the customer's information. Then, click on the button labeled "Add User". </p>
+
+<img width="1181" height="409" alt="image" src="https://github.com/user-attachments/assets/8a3b9e30-8a05-4b3a-beb3-21ba10ef0c77" /> </p>
+
+The user has successfully been created. </p>
+
+<h2>Step 7 - Configure Service Level Agreements (SLAs)</h2>
+
+<img width="1187" height="326" alt="image" src="https://github.com/user-attachments/assets/0e6208d5-5882-49dc-b959-f7653717e9b5" /> </p>
+
+Returning to the Admin panel; click on the tab labeled "Manage" and then click on the button labeled "SLA". Next, click on the button labeled "Add New SLA Plan" </p>
+
+SLAs (Service Level Agreements) in osTicket set time limits for responding to and resolving tickets based on priority. </p>
+
+For example:
+- SEV-A – 1 hour response, 4 hours resolve (critical system down).
+- SEV-B – 4 hours response, 1 day resolve (major function impaired).
+- SEV-C – 8 hours response, 3 days resolve (general request). </p>
+
+<img width="1175" height="800" alt="image" src="https://github.com/user-attachments/assets/f5e8a8e4-9c73-40ad-9b67-14210e2ddac8" /> </p>
+
+In the Add New SLA Plan page, the details of the SLA are entered. </p>
+
+For this SLA; the name is "Sev-A", the grace period (response time) is 1 hour, and the schedule is 24/7. </p>
+
+Once the SLA details have been filled out, click the button labeled "Add Plan". </p>
+
+<img width="1193" height="458" alt="image" src="https://github.com/user-attachments/assets/931c89cd-9cc3-4a99-94e7-c4a08b2ebf16" /> </p>
+
+The Service Level Agreen plan has been successfully created. </p>
+
+<img width="1192" height="819" alt="image" src="https://github.com/user-attachments/assets/2fa0c11a-5e10-4602-9ba8-ce39ba81766a" /> </p>
+
+A second SLA was created; named "Sev-B", with a grace period of 4 hours and schedule is 24/7 </p>
+
+<img width="1200" height="832" alt="image" src="https://github.com/user-attachments/assets/2e4d4b9b-ff04-43e2-a289-28d7eca836be" /> </p>
+
+A third SLA was created; named "Sev-C", wiht a grace period of 8 hours and schedule is normal business hours. </p>
+
+<img width="1191" height="524" alt="image" src="https://github.com/user-attachments/assets/2df97ace-f605-45a1-9a9d-a896789d23d5" /> </p>
+
+All 3 SLAs have been successfully added. </p>
+
+
+<h2>Step 8 - Configure Help Topics</h2>
+
+<img width="1178" height="473" alt="image" src="https://github.com/user-attachments/assets/dea09eb3-9db2-41f5-8833-19cde772bee8" /> </p>
+
+To begin; click on the Manage tab, then click on the button labeled "Help Topics". Next, click on the button labeled "Add New Help Topic".</p>
+
+Help Topics in osTicket are predefined categories (like "Password Reset," "Hardware Issue," or "Billing Question") that users select when submitting a ticket, helping route it to the right department or agent and speeding up support. </p>
+
+<img width="1183" height="754" alt="image" src="https://github.com/user-attachments/assets/225a154c-5ed8-4f0c-96e4-3e6b04b8bfe9" />
+
+Inside the Add New Help Topic page, provide a name for the help topic and choose it's Parent Topic for categorization. </p>
+
+Once the information has been configured, click "Add Topic". </p>
+
+<img width="1184" height="813" alt="image" src="https://github.com/user-attachments/assets/b52ae07e-1b50-453e-a23a-42222cd363ff" /> </p>
+
+The Help Topic was successfully added. </p>
+
+<h2>Conclusion</h2>
+
+This post-install configuration transformed osTicket into a structured enterprise support system by defining roles with granular permissions, organizing agents into departments and dynamic teams, enabling open ticket submission, creating staff and client accounts, enforcing response times with SLAs, and routing issues via help topics—establishing a secure, efficient, and scalable ticketing workflow ready for real-world IT and customer support operations.
 
 
 
